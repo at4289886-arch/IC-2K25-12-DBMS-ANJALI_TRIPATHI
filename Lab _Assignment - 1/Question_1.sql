@@ -18,7 +18,7 @@ INSERT INTO countries VALUES(7,"JAPAN","ASIA");
 INSERT INTO countries VALUES(8,"CANADA","NA");
 
 SELECT * FROM countries;
-
+ 
 
 
 
