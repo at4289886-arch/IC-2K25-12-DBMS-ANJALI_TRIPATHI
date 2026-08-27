@@ -6,3 +6,4 @@ country_name VARCHAR(50),
 region_id VARCHAR(100)
 );
 
+ 
