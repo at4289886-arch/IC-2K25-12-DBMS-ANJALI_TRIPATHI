@@ -13,7 +13,7 @@ VALUES
 (1, 'Software Developer', 8000, 25000),
 (2, 'Data Analyst', 10000, 30000),
 (3, 'Web Designer', 9000, 20000);
-SELECT * FROM jobs;
+SELECT * FROM jobs; 
 INSERT INTO jobs (job_id)
 VALUES (4);
 SELECT * FROM jobs;
