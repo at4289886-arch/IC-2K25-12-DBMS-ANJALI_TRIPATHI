@@ -6,7 +6,7 @@ employee_id INT,
 start_date DATE,
 end_date DATE,
 job_id INT,
-department_id INT
+department_id INT 
 );
 SELECT * FROM job_histry;
 INSERT INTO job_histry(employee_id ,
