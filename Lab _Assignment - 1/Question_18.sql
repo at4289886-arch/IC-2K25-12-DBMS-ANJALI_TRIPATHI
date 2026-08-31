@@ -2,7 +2,7 @@
 Assume that the structure of the table jobs and InnoDB Engine have been used to create the table jobs.
 CREATE TABLE IF NOT EXISTS jobs ( 
 JOB_ID integer NOT NULL UNIQUE PRIMARY KEY, 
-JOB_TITLE varchar(35) NOT NULL DEFAULT ' ', 
+JOB_TITLE varchar(35) NOT NULL DEFAULT ' ',   
 MIN_SALARY decimal(6,0) DEFAULT 8000, 
 MAX_SALARY decimal(6,0) DEFAULT NULL
 )ENGINE=InnoDB;
