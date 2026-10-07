@@ -1,6 +1,6 @@
  MySQL  localhost:33060+ ssl  SQL > use dbms_assignment;
 Default schema set to `dbms_assignment`.
-Fetching global names, object names from `dbms_assignment` for auto-completion... Press ^C to stop.
+Fetching global names, object names from `dbms_assignment` for auto-completion... Press ^C to stop. 
   MySQL  localhost:33060+ ssl  dbms_assignment  SQL > select*from employees;
 +-------------+------------+-----------+------------------+--------------+------------+--------+----------+------------+------------+---------------+
 | employee_id | first_name | last_name | email            | phone_number | hire_date  | job_id | salary   | commission | manager_id | department_id |
