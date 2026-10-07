@@ -1,7 +1,7 @@
  MySQL  localhost:33060+ ssl  SQL > use dbms_assignment;
 Default schema set to `dbms_assignment`.
 Fetching global names, object names from `dbms_assignment` for auto-completion... Press ^C to stop.
- MySQL  localhost:33060+ ssl  dbms_assignment  SQL > show tables;
+ MySQL  localhost:33060+ ssl  dbms_assignment  SQL > show tables; 
 +---------------------------+
 | Tables_in_dbms_assignment |
 +---------------------------+
