@@ -13,19 +13,15 @@
 |           9 | Vikas      | Shah      | vikas@gmail.com  | 9876543218   | 2023-09-14 |      3 | 50000.00 |    4000.00 |        103 |            30 |
 |          10 | Simran     | Khan      | simran@gmail.com | 9876543219   | 2023-10-25 |      1 | 42000.00 |    3200.00 |        101 |            10 |
 +-------------+------------+-----------+------------------+--------------+------------+--------+----------+------------+------------+---------------+
- MySQL  localhost:33060+ ssl  dbms_assignment  SQL > SELECT COUNT(DISTINCT job_id)
+ MySQL  localhost:33060+ ssl  dbms_assignment  SQL > SELECT SUM(salary)
                                                   -> FROM employees;
-+------------------------+
-| COUNT(DISTINCT job_id) |
-+------------------------+
-|                      3 |
-+------------------------+
-1 row in set (0.0026 sec)
++-------------+
+| SUM(salary) |
++-------------+
+|   365000.00 |
++-------------+
+1 row in set (0.0193 sec)
  MySQL  localhost:33060+ ssl  dbms_assignment  SQL >
-
-
-
-
 
 
 
